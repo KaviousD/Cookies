@@ -93,7 +93,7 @@ for (let i = 0; i < seattle.hoursofoperation.length; i++) {
     // seattlelist.innerHTML = `${seattle.hoursofoperation[i]}:${seattle.getCookies()[i]} cookies`;
     // seatData.append(seattlelist);
     seattletd.innerHTML = seattle.getCookies()[i]
-        (seattle.getCookies()[i] +)
+    // (seattle.getCookies()[i])
     seattleTr.append(seattletd)
 }
 Table.append(seattleTr)
